@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter/services.dart';
 import 'package:my_app/screens/login/login.dart';
 import 'package:my_app/screens/register/register.dart';
 import 'package:my_app/utilities/styles.dart';
 import 'package:flutter/widgets.dart';
-import 'package:my_app/generated_plugin_registrant.dart';
 import 'package:my_app/screens/components/background.dart';
 
 class OnboardingScreen extends StatefulWidget {

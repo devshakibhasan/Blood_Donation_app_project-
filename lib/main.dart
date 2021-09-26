@@ -1,10 +1,8 @@
 import 'package:my_app/splash/splash.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:my_app/screens/components/background.dart';
 import 'package:my_app/screens/login/login.dart';
 import 'package:my_app/screens/register/register.dart';
-import 'package:my_app/generated_plugin_registrant.dart';
 
 void main() async {
   runApp(BloodApp());
@@ -32,4 +30,8 @@ class _BloodAppState extends State<BloodApp> {
       home: SplashScreen(),
     );
   }
+}
+
+class GoogleFonts {
+  static manropeTextTheme(TextTheme textTheme) {}
 }
