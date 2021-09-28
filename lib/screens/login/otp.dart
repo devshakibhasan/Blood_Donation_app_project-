@@ -5,6 +5,8 @@ import 'package:my_app/Screens/components/background.dart';
 import 'package:my_app/screens/login/otp.dart';
 import 'package:my_app/screens/onboarding_screen.dart';
 
+import '../finish_screen.dart';
+
 class Otp extends StatefulWidget {
   const Otp({Key? key}) : super(key: key);
 
@@ -96,7 +98,12 @@ class _OtpState extends State<Otp> {
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Finish()));
+                        },
                         style: ButtonStyle(
                           foregroundColor:
                               MaterialStateProperty.all<Color>(Colors.white),
