@@ -214,14 +214,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 Text(
                                   'Next',
                                   style: TextStyle(
-                                    color: Colors.black,
+                                    color: Color(0xFFFF2156),
                                     fontSize: 22.0,
                                   ),
                                 ),
                                 SizedBox(width: 10.0),
                                 Icon(
                                   Icons.arrow_forward,
-                                  color: Colors.black,
+                                  color: Color(0xFFFF2156),
                                   size: 30.0,
                                 ),
                               ],
