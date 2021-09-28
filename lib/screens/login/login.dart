@@ -4,6 +4,8 @@ import 'package:my_app/Screens/register/register.dart';
 import 'package:my_app/Screens/components/background.dart';
 import 'package:my_app/screens/onboarding_screen.dart';
 
+import 'forget_pass.dart';
+
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -108,7 +110,7 @@ class LoginScreen extends StatelessWidget {
               child: GestureDetector(
                 onTap: () => {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => RegisterScreen()))
+                      MaterialPageRoute(builder: (context) => ForgotPass()))
                 },
                 child: Text(
                   "Forgot your password?",
