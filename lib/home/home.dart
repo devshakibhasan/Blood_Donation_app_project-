@@ -72,124 +72,123 @@ class Hompage extends StatelessWidget {
 
 //fksdkfsdfkaksdfkkadsfkasdkf
 
-            Container(
-              child: Expanded(
-                child: Container(
-                  child: GridView.count(
-                    shrinkWrap: true,
-                    primary: true,
-                    padding: const EdgeInsets.all(20.0),
-                    crossAxisSpacing: 20.0,
-                    mainAxisSpacing: 20.0,
-                    crossAxisCount: 3,
-                    children: <Widget>[
-                      Container(
-                        padding: const EdgeInsets.all(8.0),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0),
-                          color: Colors.white,
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.asset('assets/icons/search.png'),
-                            SizedBox(
-                              height: 20.0,
-                            ),
-                            Text('Find Donors'),
-                          ],
-                        ),
+            Expanded(
+              child: Container(
+                child: GridView.count(
+                  shrinkWrap: true,
+                  primary: true,
+                  padding: const EdgeInsets.all(20.0),
+                  crossAxisSpacing: 20.0,
+                  mainAxisSpacing: 20.0,
+                  crossAxisCount: 3,
+                  children: <Widget>[
+                    Container(
+                      padding: const EdgeInsets.all(8.0),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
                       ),
-                      Container(
-                        padding: const EdgeInsets.all(8),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0),
-                          color: Colors.white,
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.asset('assets/icons/donors.png'),
-                            SizedBox(
-                              height: 20.0,
-                            ),
-                            Text('Donates'),
-                          ],
-                        ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/search.png'),
+                          SizedBox(
+                            height: 20.0,
+                          ),
+                          Text('Find Donors'),
+                        ],
                       ),
-                      Container(
-                        padding: const EdgeInsets.all(8),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0),
-                          color: Colors.white,
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.asset('assets/icons/order_blood.png'),
-                            SizedBox(
-                              height: 20.0,
-                            ),
-                            Text('Order Bloods'),
-                          ],
-                        ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
                       ),
-                      Container(
-                        padding: const EdgeInsets.all(8),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0),
-                          color: Colors.white,
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.asset('assets/icons/assistant.png'),
-                            SizedBox(
-                              height: 20.0,
-                            ),
-                            Text('Assistant'),
-                          ],
-                        ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/donors.png'),
+                          SizedBox(
+                            height: 20.0,
+                          ),
+                          Text('Donates'),
+                        ],
                       ),
-                      Container(
-                        padding: const EdgeInsets.all(8),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0),
-                          color: Colors.white,
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.asset('assets/icons/report.png'),
-                            SizedBox(
-                              height: 20.0,
-                            ),
-                            Text('Report'),
-                          ],
-                        ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
                       ),
-                      Container(
-                        padding: const EdgeInsets.all(8.0),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10.0),
-                          color: Colors.white,
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.asset('assets/icons/campaign.png'),
-                            SizedBox(
-                              height: 20.0,
-                            ),
-                            Text('Campaign'),
-                          ],
-                        ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/order_blood.png'),
+                          SizedBox(
+                            height: 20.0,
+                          ),
+                          Text('Order Bloods'),
+                        ],
                       ),
-                    ],
-                  ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/assistant.png'),
+                          SizedBox(
+                            height: 20.0,
+                          ),
+                          Text('Assistant'),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/report.png'),
+                          SizedBox(
+                            height: 20.0,
+                          ),
+                          Text('Report'),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(8.0),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color: Colors.white,
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/campaign.png'),
+                          SizedBox(
+                            height: 20.0,
+                          ),
+                          Text('Campaign'),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
+
             SizedBox(
               height: 30.0,
             ),
@@ -202,13 +201,44 @@ class Hompage extends StatelessWidget {
             SizedBox(
               height: 20.0,
             ),
-            Container(
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [],
-                ),
-              ),
-            ),
+            Expanded(
+                child: ListView(
+              padding: const EdgeInsets.all(8),
+              children: <Widget>[
+                Card(
+                    child: ListTile(
+                        title: Text("Battery Full"),
+                        subtitle: Text("The battery is full."),
+                        leading: CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                "https://images.unsplash.com/photo-1547721064-da6cfb341d50")),
+                        trailing: Icon(Icons.star))),
+                Card(
+                    child: ListTile(
+                        title: Text("Anchor"),
+                        subtitle: Text("Lower the anchor."),
+                        leading: CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                "https://miro.medium.com/fit/c/64/64/1*WSdkXxKtD8m54-1xp75cqQ.jpeg")),
+                        trailing: Icon(Icons.star))),
+                Card(
+                    child: ListTile(
+                        title: Text("Alarm"),
+                        subtitle: Text("This is the time."),
+                        leading: CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                "https://miro.medium.com/fit/c/64/64/1*WSdkXxKtD8m54-1xp75cqQ.jpeg")),
+                        trailing: Icon(Icons.star))),
+                Card(
+                    child: ListTile(
+                        title: Text("Ballot"),
+                        subtitle: Text("Cast your vote."),
+                        leading: CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                "https://miro.medium.com/fit/c/64/64/1*WSdkXxKtD8m54-1xp75cqQ.jpeg")),
+                        trailing: Icon(Icons.star)))
+              ],
+            )),
           ],
         ),
       ),
