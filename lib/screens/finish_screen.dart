@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/Screens/register/register.dart';
 import 'package:my_app/Screens/components/background.dart';
+import 'package:my_app/home/home.dart';
 import 'package:my_app/screens/onboarding_screen.dart';
 import 'forget_pass.dart';
 
@@ -33,7 +34,10 @@ class Finish extends StatelessWidget {
               alignment: Alignment.center,
               margin: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
               child: RaisedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Hompage()));
+                },
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(80.0)),
                 textColor: Colors.white,
@@ -43,11 +47,14 @@ class Finish extends StatelessWidget {
                   height: 50.0,
                   width: size.width * 0.5,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(80.0),
-                      gradient: LinearGradient(colors: [
+                    borderRadius: BorderRadius.circular(80.0),
+                    gradient: LinearGradient(
+                      colors: [
                         Color.fromRGBO(255, 33, 86, 1),
                         Color.fromRGBO(255, 33, 86, 1)
-                      ])),
+                      ],
+                    ),
+                  ),
                   padding: const EdgeInsets.all(0),
                   child: Text(
                     "Finish",
