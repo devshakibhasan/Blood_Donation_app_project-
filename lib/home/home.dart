@@ -1,4 +1,5 @@
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Hompage extends StatelessWidget {
@@ -206,37 +207,157 @@ class Hompage extends StatelessWidget {
               padding: const EdgeInsets.all(8),
               children: <Widget>[
                 Card(
-                    child: ListTile(
-                        title: Text("Battery Full"),
-                        subtitle: Text("The battery is full."),
-                        leading: CircleAvatar(
-                            backgroundImage: NetworkImage(
-                                "https://images.unsplash.com/photo-1547721064-da6cfb341d50")),
-                        trailing: Icon(Icons.star))),
+                  child: Column(
+                    children: [
+                      ListTile(
+                        title: Text("Name"),
+                        subtitle: Text("Amir Hamza"),
+                        trailing: Image.asset(
+                          'assets/icons/Blood Group.png',
+                          height: 100.0,
+                        ),
+                      ),
+                      ListTile(
+                        title: Text("Location"),
+                        subtitle: Text("Hertford British Hospital"),
+                      ),
+                      ListTile(
+                        title: Row(
+                          children: [
+                            Text(
+                              "5 Min Ago",
+                              textAlign: TextAlign.left,
+                            ),
+                            Align(
+                              alignment: Alignment.center,
+                              child: Text(
+                                "Donate",
+                                style: TextStyle(
+                                  color: Color.fromRGBO(255, 33, 86, 1),
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
                 Card(
-                    child: ListTile(
-                        title: Text("Anchor"),
-                        subtitle: Text("Lower the anchor."),
-                        leading: CircleAvatar(
-                            backgroundImage: NetworkImage(
-                                "https://miro.medium.com/fit/c/64/64/1*WSdkXxKtD8m54-1xp75cqQ.jpeg")),
-                        trailing: Icon(Icons.star))),
+                  child: Column(
+                    children: [
+                      ListTile(
+                        title: Text("Name"),
+                        subtitle: Text("Amir Hamza"),
+                        trailing: Image.asset(
+                          'assets/icons/Blood Group.png',
+                          height: 100.0,
+                        ),
+                      ),
+                      ListTile(
+                        title: Text("Location"),
+                        subtitle: Text("Hertford British Hospital"),
+                      ),
+                      ListTile(
+                        title: Row(
+                          children: [
+                            Text(
+                              "5 Min Ago",
+                              textAlign: TextAlign.left,
+                            ),
+                            Align(
+                              alignment: Alignment.center,
+                              child: Text(
+                                "Donate",
+                                style: TextStyle(
+                                  color: Color.fromRGBO(255, 33, 86, 1),
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
                 Card(
-                    child: ListTile(
-                        title: Text("Alarm"),
-                        subtitle: Text("This is the time."),
-                        leading: CircleAvatar(
-                            backgroundImage: NetworkImage(
-                                "https://miro.medium.com/fit/c/64/64/1*WSdkXxKtD8m54-1xp75cqQ.jpeg")),
-                        trailing: Icon(Icons.star))),
+                  child: Column(
+                    children: [
+                      ListTile(
+                        title: Text("Name"),
+                        subtitle: Text("Amir Hamza"),
+                        trailing: Image.asset(
+                          'assets/icons/Blood Group.png',
+                          height: 100.0,
+                        ),
+                      ),
+                      ListTile(
+                        title: Text("Location"),
+                        subtitle: Text("Hertford British Hospital"),
+                      ),
+                      ListTile(
+                        title: Row(
+                          children: [
+                            Text(
+                              "5 Min Ago",
+                              textAlign: TextAlign.left,
+                            ),
+                            Align(
+                              alignment: Alignment.center,
+                              child: Text(
+                                "Donate",
+                                style: TextStyle(
+                                  color: Color.fromRGBO(255, 33, 86, 1),
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
                 Card(
-                    child: ListTile(
-                        title: Text("Ballot"),
-                        subtitle: Text("Cast your vote."),
-                        leading: CircleAvatar(
-                            backgroundImage: NetworkImage(
-                                "https://miro.medium.com/fit/c/64/64/1*WSdkXxKtD8m54-1xp75cqQ.jpeg")),
-                        trailing: Icon(Icons.star)))
+                  child: Column(
+                    children: [
+                      ListTile(
+                        title: Text("Name"),
+                        subtitle: Text("Amir Hamza"),
+                        trailing: Image.asset(
+                          'assets/icons/Blood Group.png',
+                          height: 100.0,
+                        ),
+                      ),
+                      ListTile(
+                        title: Text("Location"),
+                        subtitle: Text("Hertford British Hospital"),
+                      ),
+                      ListTile(
+                        title: Row(
+                          children: [
+                            Text(
+                              "5 Min Ago",
+                              textAlign: TextAlign.left,
+                            ),
+                            Align(
+                              alignment: Alignment.center,
+                              child: Text(
+                                "Donate",
+                                style: TextStyle(
+                                  color: Color.fromRGBO(255, 33, 86, 1),
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             )),
           ],
