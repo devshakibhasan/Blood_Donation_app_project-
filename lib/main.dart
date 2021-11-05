@@ -1,37 +1,40 @@
-import 'package:my_app/splash/splash.dart';
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
-import 'package:my_app/screens/components/background.dart';
-import 'package:my_app/screens/login/login.dart';
-import 'package:my_app/screens/register/register.dart';
+import 'SplashScreen/splashscreen.dart';
 
-void main() async {
-  runApp(BloodApp());
-}
+void main() => runApp(const BloodDonationApp());
 
-class BloodApp extends StatefulWidget {
-  BloodApp({Key? key}) : super(key: key);
-
-  @override
-  _BloodAppState createState() => _BloodAppState();
-}
-
-class _BloodAppState extends State<BloodApp> {
-  get seenOnboard => null;
+class BloodDonationApp extends StatelessWidget {
+  const BloodDonationApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        textTheme: GoogleFonts.manropeTextTheme(
-          Theme.of(context).textTheme,
+        colorScheme: ThemeData().colorScheme.copyWith(
+              primary: Color.fromRGBO(255, 33, 86, 1),
+            ),
+        textSelectionTheme: TextSelectionThemeData(
+          cursorColor: Color.fromRGBO(255, 33, 86, 1),
+          selectionColor: Color.fromRGBO(255, 33, 86, 1),
+          selectionHandleColor: Color.fromRGBO(255, 33, 86, 1),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          focusedBorder: UnderlineInputBorder(
+            borderSide: BorderSide(
+              color: Color.fromRGBO(255, 33, 86, 1),
+            ),
+          ),
+          border: UnderlineInputBorder(
+            borderSide: BorderSide(
+              color: Color.fromRGBO(255, 33, 86, 1),
+            ),
+          ),
         ),
       ),
+      debugShowCheckedModeBanner: false,
       home: SplashScreen(),
     );
   }
-}
-
-class GoogleFonts {
-  static manropeTextTheme(TextTheme textTheme) {}
 }

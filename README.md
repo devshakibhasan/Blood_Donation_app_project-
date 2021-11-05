@@ -1,4 +1,4 @@
-# my_app
+# blood_fighter
 
 A new Flutter project.
 
