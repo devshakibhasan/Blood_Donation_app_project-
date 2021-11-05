@@ -1,4 +1,4 @@
-# blood_fighter
+# Blood_Fighter
 
 A new Flutter project.
 
