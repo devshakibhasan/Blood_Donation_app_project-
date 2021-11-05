@@ -1,4 +1,6 @@
+import 'package:blood_fighter/Home/Components/test.dart';
 import 'package:blood_fighter/Home/home.dart';
+
 import 'package:flutter/material.dart';
 
 class LoginButton extends StatelessWidget {
@@ -44,7 +46,7 @@ class LoginButton extends StatelessWidget {
         ),
         onPressed: () {
           Navigator.push(context,
-              MaterialPageRoute(builder: (context) => HomePage()));
+              MaterialPageRoute(builder: (context) => MyHomePage()));
         },
       ),
     );
