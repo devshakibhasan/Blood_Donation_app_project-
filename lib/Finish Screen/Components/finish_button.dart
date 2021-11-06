@@ -1,5 +1,6 @@
 import 'package:blood_fighter/Finish%20Screen/finish.dart';
 import 'package:blood_fighter/Home/home.dart';
+import 'package:blood_fighter/Home/myhomepage.dart';
 import 'package:blood_fighter/OTP/otp.dart';
 import 'package:flutter/material.dart';
 
@@ -48,7 +49,7 @@ class FinishButton extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => HomePage(),
+              builder: (context) => MyHomePage(),
             ),
           );
         },

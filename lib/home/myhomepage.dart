@@ -7,9 +7,9 @@ import 'package:blood_fighter/Reports/reports.dart';
 import 'package:drawer_swipe/drawer_swipe.dart';
 import 'package:flutter/material.dart';
 
-import 'body.dart';
-import 'grid_view.dart';
-import 'slide.dart';
+import 'Components/body.dart';
+import 'Components/grid_view.dart';
+import 'Components/slide.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               leading: Image.asset(
-                "assets/icons/Group 17.png",
+                "assets/icons/home.png",
               ),
             ),
           ),
